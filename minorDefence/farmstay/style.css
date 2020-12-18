@@ -1,0 +1,46 @@
+.card{
+    
+    height: 25rem;
+    width: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition:0.5s ;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    
+}
+.card1{
+background-image: url(./images/1.jpg);
+}
+.card2{
+    background-image: url(./images/2.jpg);
+}
+.card3{
+    background-image: url(./images/3.jpg);
+}
+.card4{
+    background-image: url(./images/4.jpg);
+}
+.card5{
+    background-image: url(./images/5.jpg);
+}
+.card6{
+    background-image: url(./images/6.jpg);
+    
+}
+
+
+.row{
+    display: flex;
+}
+h1{
+    color: white;
+
+}
+
+.farmstay-content{
+    margin-left: 82px;
+}

@@ -1,0 +1,52 @@
+.hotels-image{
+    height:100%;
+    width: 15rem;
+    background-size: cover;
+}
+
+.bedroomimage{
+    height: 100%;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+.hotels-content{
+display: flex;
+width: 60%;
+height: 100%;
+
+}
+
+.hotels-heading{
+    margin-left:17px;
+}
+
+.hotels-container{
+    height: 10rem;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.4);
+    margin: 4rem;
+}
+
+.hotels-booking > input[type="button"]{
+    border: none;
+    background-color: coral;
+    font-size: 20px;
+    border-radius: 13px;
+    height: 38px;
+    color: white;
+    margin-top: -14px;
+    outline: none;
+    margin-top: 57px;
+
+}
+
+#save{
+    color: green;
+}
+
+.fa-star{
+    color: blue;
+}

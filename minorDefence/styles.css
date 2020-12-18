@@ -1,0 +1,213 @@
+*{
+  
+  padding: 0px;
+  box-sizing: border-box;
+  
+   
+  margin-right: 14px;
+
+}
+
+.navbar{
+  display:flex;
+  width: 82rem;
+  justify-content:;
+
+  color: black;
+  clear: both;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-family: 'Hammersmith One', sans-serif;
+  float: right;
+}
+.logo{
+  width: 50%;
+  margin-left:15rem ;
+}
+.navbar > ul {
+ list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width:72%;
+  float: right;
+}
+.navbar > ul > li > a{
+  text-decoration: none;
+color: black;
+ }
+ .navbar > ul > li :hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+  
+ }
+  .showcase{
+    clear: both;
+    background-image: url(./images/front2.jpg);
+    width: 90vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+margin: auto;
+    border-radius: 20px;
+    
+  }
+
+  .tour-packages{
+-webkit-box-shadow:0 0 20px rgba(0,0,0,0.4);
+    background-color: #f5f3f4;
+    margin-top:7rem;
+  }
+  .packages{
+    display: flex;
+    justify-content: center;
+  }
+
+  .package-card{
+    height :16rem;
+    width: 12rem;
+    border: 1px solid;
+    margin: 25px;
+    
+  }
+  .package-tour-img{
+    height: 90%;
+    width: 100%;
+    
+   
+    
+  }
+  .package-title{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .card-1{
+background-image: url(./images/sightseeingg.jpg);
+ background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  .card-2{
+    background-image: url(./images/bike\ tour.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card-3{
+    background-image: url(./images/farmstay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card-4{
+    background-image: url(./images/manali\ leh.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .card-5{
+    background-image: url(./images/sightseeing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* form */
+  .signup{
+    background-color: black;
+    
+  }
+  .signup-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:-3rem;
+  }
+  .bg-video__content{
+    width:40%;
+    margin-left:3rem;
+  }
+  .signup-form{
+  width:50%;
+  transform: scale(0.8);
+  }
+  /* attribute selector */
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea{
+    width:100%;
+    margin:1rem 0 ;
+    padding: 1rem 0.5rem;
+  }
+  /* button */
+  .form-entry:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+  }
+  .form-entry{
+    color:white;
+  }
+  /* /form */
+
+  /* feature section */
+  .container-parent {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container {
+    margin-right: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+  
+  .how-to {
+    
+    margin-top: 9rem;
+  }
+  .howto-img {
+  /* image => vw */
+    width: 15vw;
+  }
+  .steps-parent {
+    display: flex;
+  }
+  .img-container{
+    width:40%;
+    text-align: center;
+  }
+  .steps-container{
+    /* display: flex; */
+  /* height: 20%;   */
+  margin-top:3rem;
+  }
+  .steps-container:first-child{
+    margin-top:4rem;
+  }
+  .steps-para{
+    font-size: 140%;
+  }
+  .step-val{
+    float:left;
+    margin-right: 1.5rem;
+      font-size: 140%;
+      height: 4rem;
+      width: 4rem;
+      border: 0.1rem solid red;
+      text-align: center;
+      border-radius: 50%;
+      padding-top: 1rem;
+      color:red;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  
+  /* /feature section */
